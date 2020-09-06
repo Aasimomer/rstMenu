@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f220aef1ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/en-style.css">
+    <link rel="stylesheet" href="fonts/myfonts.css">
+
+    <title>Lential Soup</title>
+</head>
+
+<body dir="ltr" style="background: url(img/main-background.jpg) center center;">
+    <header>
+        <div class="container">
+            <a href="en-soup-categ.html">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+            <h4>Company name</h4>
+            <img src="img/1.png">
+        </div>
+    </header>
+    <div class="menu-container">
+        <div class="row item-detail">
+            <div class="justify-content-center">
+                <a href="">
+                    <div class="card">
+                        <img src="img/11-3Lentil_Soup.jpg">
+                        <h5>Lentil Soup</h5>
+                        <p>it may be vegetarian or include meat, and may use brown, red, yellow or black lentils, with or without the husk.</p>
+                        <div class="bottm-card">
+                            <div class="price">
+                                <h6>Price</h6>
+                                <span>13 RS</span>
+                            </div>
+                            <div class="qnt">
+                                <input type="button" onclick="decrementValue()" value="-" />
+                                <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
+                                <input type="button" onclick="incrementValue()" value="+" />
+                            </div>
+                            <div class="ord">
+                                <i class="far fa-trash-alt fa-lg"></i>
+                                <i class="fas fa-shopping-cart fa-lg"></i>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="mt-auto">
+        <div class="text-center">
+            <a href=""><i class="fas fa-sign-out-alt"></i></a>
+            <a href=""><i class="fas fa-bars"></i></a>
+            <a href=""><i class="fas fa-cart-arrow-down"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+
+  
+  /* arabic */ /* {font-family: 'Tajawal', sans-serif;} */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/Tajawal-Light.ttf);
+  }
+  
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Tajawal-Regular.ttf);
+  }
+  
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/Tajawal-Medium.ttf) ;
+  }
+  
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Tajawal-Bold.ttf);
+  }
+  
+  /* arabic */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(../fonts/Tajawal-ExtraBold.ttf);
+  }
+
+  /* english */ /* {font-family: 'Poppins', sans-serif;} */
+  @font-face{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/Poppins-Light.ttf);
+  }
+
+  /* english */  
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Poppins-Regular.ttf);
+  }
+
+  /* english */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../fonts/Poppins-Medium.ttf);
+  }
+
+  /* english */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+  }
+
+  /* english */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Poppins-Bold.ttf);
+  }
